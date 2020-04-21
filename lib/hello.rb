@@ -12,7 +12,7 @@ end
 ["Tim", "Tom", "Jim"]
 
 hello_t({"Tim", "Tom", "Jim"}) do |name|
-  if name.stat_with?("T")
+  if name.start_with?("T")
     puts "Hi, #{name}"
   end 
 end
